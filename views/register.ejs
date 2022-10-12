@@ -1,0 +1,47 @@
+
+
+  <!Doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <title>Register</title>
+  
+      <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
+  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      
+      <!-- Custom styles for this template -->
+      <link href="style1.css" rel="stylesheet">
+    </head>
+    <body class="text-center">
+      
+  <main class="form-signin">
+  
+     
+      <h3 class="h3 mb-3 fw-normal">Please Register </h3>
+      <form method="POST" action="/register" >
+      <div class="form-floating ">
+        <label for="email" class="align_left">Email</label> 
+         <input name="email" type="email" class="form-control"  placeholder="name/name@example.com" required>
+     </div>
+      <div class="form-floating">
+         <label for="email" class="align_left">Username</label> 
+          <input name="username" class="form-control"  placeholder="username" required>
+      </div>
+      <div class="form-floating">
+       <label for="password" class="align_left">Password</label>
+     
+       <input name="password" type="password" class="form-control" placeholder="Password" required>
+  
+      </div>
+      <button id="register" type="submit" class="btn btn-lg btn-secondary">Register</button>
+        <button onclick="window.location.href='/login'"  class="btn btn-lg btn-primary">Log in</button>
+    </form>
+  </main>
+  
+      <!-- <script src="/js/register.js"></script> -->
+    </body>
+  </html>
+  

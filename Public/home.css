@@ -1,0 +1,15 @@
+.main {
+    line-height: 3rem;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .btn{
+    font-size: x-large;
+  }
